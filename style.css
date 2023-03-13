@@ -1,0 +1,72 @@
+/* Navbar styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-image: url('https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8ZGV2ZWxvcGVyLGNvZGV8fHx8fHwxNjc4Njk5MTAz&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+/*Image */
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover
+}
+/* Skills section styles */
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+/* Experience and Education section styles */
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-subtitle {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 2rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 576px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+}
+.link{
+    color: white;
+}
